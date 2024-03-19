@@ -9,13 +9,19 @@ npm install bz-rn-badge
 ```
 
 ## Usage
+Reference example app
 
 ```js
-import { multiply } from 'bz-rn-badge';
+import Badge from 'bz-rn-badge';
 
-// ...
+<Badge
+    text="Label"
+    bgColor="#007AFF"
+    textColor="white"
+    height={30}
+    icon="accessibility"
+/>
 
-const result = await multiply(3, 7);
 ```
 
 ## Contributing
