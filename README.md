@@ -23,6 +23,15 @@ import Badge from 'bz-rn-badge';
 />
 
 ```
+## Props
+| Prop name | Type   | Description                            | Default value |
+|-----------|--------|----------------------------------------|---------------|
+| text      | string | Label text                             |               |
+| bgColor   | string | Background color of the badge          | '#007AFF'     |
+| textColor | string | Text color of the badge                | 'white'       |
+| width     | number | Optional to set the width of the badge |               |
+| height    | number | Optional to se the height of the badge | 30            |
+| icon      | string | Set IonIcon name                       |               |
 
 ## Contributing
 
