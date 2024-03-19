@@ -1,18 +1,18 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'bz-rn-badge';
+import { StyleSheet, View } from 'react-native';
+import Badge from 'bz-rn-badge';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Badge
+        text="Label"
+        bgColor="#007AFF"
+        textColor="white"
+        height={30}
+        icon="accessibility"
+      />
     </View>
   );
 }
